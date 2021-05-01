@@ -1,0 +1,9 @@
+.city {
+  border: 3px solid red;
+  height: 300px;
+  width: 50%;
+  overflow-y: scroll;
+  letter-spacing: 0.125rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-size: 0.8rem; */
+}
