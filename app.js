@@ -7,7 +7,7 @@ const city = document.querySelector(".city");
 btn.addEventListener("click", () => {
   console.log("clicked");
   const searchValue = input.value;
-  const url = `https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exlimit=max&explaintext&exintro&titles=${searchValue}&redirects=`;
+  const url = `https://ancient-refuge-79913.herokuapp.com/https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exlimit=max&explaintext&exintro&titles=${searchValue}&redirects=`;
   console.log(url);
   fetch(url)
     .then((resp) => {
